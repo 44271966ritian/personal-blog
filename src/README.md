@@ -15,7 +15,7 @@ actions:
     type: primary
 
   - text: 我的项目 💐
-    link: 101.126.84.62:3000
+    link: :3000
 
 highlights:
   - header: 
