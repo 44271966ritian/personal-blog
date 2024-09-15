@@ -8,14 +8,14 @@ bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
   background-attachment: fixed
 heroText: 我的博客简历 1.0
-tagline: 您好，我叫涂远洋，25年6月毕业于🎓哈尔滨理工大学。在校期间积累了不错的编程经验，可熟练运用主流分布式技术栈，独立开发项目。V6 TEST
+tagline: 您好，我叫tyy，25年6月毕业于🎓哈尔滨理工大学。在校期间积累了不错的编程经验，可熟练运用主流分布式技术栈，独立开发项目。V6 TEST
 actions:
   - text: 查看简历 👣
     link: ./md/
     type: primary
 
   - text: 我的项目 💐
-    link: :3000?activity=100301&userId=tyy
+    link: http://101.126.84.62:3000/?activityId=100301&userId=tyy
 
 highlights:
   - header: 
@@ -25,7 +25,7 @@ highlights:
       - title: 大营销平台 - 抽奖系统
         icon: comment-dots
         details: 2年4月，以DDD领域驱动设计架构，开发完成分布式抽奖系统。运用了全面的分布式技术栈。
-        link: 101.126.84.62:3000
+        link: http://101.126.84.62:3000/?activityId=100301&userId=tyy
 
       - title: 手写 MyBatis
         icon: box-archive
