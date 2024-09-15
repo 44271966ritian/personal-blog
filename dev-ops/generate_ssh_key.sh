@@ -14,7 +14,7 @@ if [ -f "$KEY_PATH" ]; then
 fi
 
 # 生成新的 SSH 密钥对
-ssh-keygen -t rsa -b 4096 -f "$KEY_PATH" -N ""
+ssh-keygen -t rsa -b 4096 -f "$KEY_PATH" -N "" || { echo "生成密钥失败"; exit 1; }
 
 # 确保 .ssh 目录和 authorized_keys 文件存在
 mkdir -p "$HOME/.ssh"
