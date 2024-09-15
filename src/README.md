@@ -15,7 +15,7 @@ actions:
     type: primary
 
   - text: 我的项目 💐
-    link: :3000
+    link: :3000?activity=100301&userId=tyy
 
 highlights:
   - header: 
