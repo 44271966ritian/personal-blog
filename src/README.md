@@ -11,7 +11,7 @@ heroText: 我的博客简历 1.0
 tagline: 您好，我叫tyy，25年6月毕业于🎓哈尔滨理工大学。在校期间积累了不错的编程经验，可熟练运用主流分布式技术栈，独立开发项目。V6 TEST
 actions:
   - text: 查看简历 👣
-    link: ./md/
+    link: ./md/resume.html
     type: primary
 
   - text: 我的项目 💐
