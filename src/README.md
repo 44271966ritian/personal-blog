@@ -24,7 +24,7 @@ highlights:
     features:
       - title: 大营销平台 - 抽奖系统
         icon: comment-dots
-        details: 2年4月，以DDD领域驱动设计架构，开发完成分布式抽奖系统。运用了全面的分布式技术栈。
+        details: 24年4月，以DDD领域驱动设计架构，开发完成分布式抽奖系统。运用了全面的分布式技术栈。
         link: http://101.126.84.62:3000/?activityId=100301&userId=tyy
 
       - title: 手写 MyBatis
