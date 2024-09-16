@@ -20,6 +20,13 @@ export default sidebar({
       icon:"laptop-code",
       prefix:"md/Dubbo-log",
       children:["day01.md"],
+    },
+    {
+      text:"大营销-抽奖 复盘",
+      icon:"laptop-code",
+      prefix:"md/Dubbo-log",
+      children:["day 240916.md"],
     }
+
   ],
 });
