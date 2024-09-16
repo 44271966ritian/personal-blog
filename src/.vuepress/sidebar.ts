@@ -24,7 +24,7 @@ export default sidebar({
     {
       text:"大营销-抽奖 复盘",
       icon:"laptop-code",
-      prefix:"md/Dubbo-log",
+      prefix:"md/big-market",
       children:["day 240916.md"],
     }
 
