@@ -14,6 +14,12 @@ export default sidebar({
       icon: "laptop-code",
       prefix: "md/DDD-log/",
       children: ["day1.md"],
+    },
+    {
+      text:"Dubbo 学习日志",
+      icon:"laptop-code",
+      prefix:"md/Dubbo-log",
+      children:["day01.md"],
     }
   ],
 });
