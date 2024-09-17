@@ -26,6 +26,12 @@ export default sidebar({
       icon:"laptop-code",
       prefix:"md/big-market",
       children:["day 240916.md"],
+    },
+    {
+      text:"测试学习",
+      icon:"laptop-code",
+      prefix:"md/ceshi",
+      children:["jmeter.md"],
     }
 
   ],
