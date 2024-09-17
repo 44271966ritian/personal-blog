@@ -1,3 +1,13 @@
+---
+title: Day02
+index: false
+icon: laptop-code
+category:
+  - 开发笔记
+  - 学习记录
+---
+
+
 ### 1.3.3 节点角色
 
 |节点|角色说明|
