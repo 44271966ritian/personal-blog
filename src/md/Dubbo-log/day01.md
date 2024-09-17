@@ -9,6 +9,7 @@ category:
 
 [B站学习课程](https://www.bilibili.com/video/BV1qd4y1v7ED?p=7&spm_id_from=pageDriver&vd_source=3c401e9b12aadd668c92b73995070898)
 
+[官方网站](https://cn.dubbo.apache.org/zh-cn/overview/what/core-features/)
 ## 1 Dubbo基本概念
 
 ### 1.1 什么是分布式系统
