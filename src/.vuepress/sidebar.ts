@@ -19,7 +19,7 @@ export default sidebar({
       text:"Dubbo 学习日志",
       icon:"laptop-code",
       prefix:"md/Dubbo-log",
-      children:["day01.md","day02.md","day 03.md"],
+      children:["day01.md","day02.md","day 03.md","day 04 29.md"],
     },
     {
       text:"大营销-抽奖 复盘",
