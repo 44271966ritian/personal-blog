@@ -32,6 +32,12 @@ export default sidebar({
       icon:"laptop-code",
       prefix:"md/ceshi",
       children:["jmeter.md"],
+    },
+    {
+      text:"杂项",
+      icon:"laptop-code",
+      prefix:"md/zaxiang",
+      children:["分布式锁.md","多模块的项目如何创建和启动以及部署.md","synchronized可以锁字符串吗.md"],
     }
 
   ],
