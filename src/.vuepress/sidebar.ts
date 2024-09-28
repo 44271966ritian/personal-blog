@@ -43,7 +43,7 @@ export default sidebar({
       text:"RabbitMQ",
       icon:"laptop-code",
       prefix:"md/RabbitMQ",
-      children:["day 01.md"],
+      children:["day 01.md","day 02.md"],
     }
 
   ],
