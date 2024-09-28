@@ -121,41 +121,26 @@ public class TopicRabbitConfig {
 <br/>
 
 ```
-package org.example.mq;
+package org.example.listener;
 
-import org.example.config.RedissonConfig;
-import org.example.config.TopicRabbitConfig;
-import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.springframework.amqp.rabbit.core.RabbitTemplate;
-import org.springframework.beans.factory.annotation.Autowired;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.amqp.rabbit.annotation.Queue;
+import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.stereotype.Component;
 
-import java.util.concurrent.CountDownLatch;
+@Component
+@Slf4j
+public class HelloCustomer {
+    @Value("${spring.rabbitmq.queue.hello}")
+    private String topic;
 
-@SpringBootTest
-@RunWith(SpringRunner.class)
-public class TopicMessageTest {
-    @Autowired
-    RabbitTemplate rabbitTemplate;
-
-    @Value("${spring.rabbitmq.exchange.exchange1}")
-    String exchange1;
-
-    private CountDownLatch latch = new CountDownLatch(2);  // 预期接收两个消息
-
-    @Test
-    public void test_oneAndTwo() throws InterruptedException {
-        rabbitTemplate.convertAndSend(exchange1,"topic.one","消息1:Hello World");
-        rabbitTemplate.convertAndSend(exchange1,"topic.xxx","消息2:This is Two");
-
-
-
-        latch.await();
+    @RabbitListener(queuesToDeclare = @Queue(value = "${spring.rabbitmq.queue.hello}"))
+    public void listener(String message){
+        log.info("收到消息:{}",message);
     }
 }
+
 
 ```
 
