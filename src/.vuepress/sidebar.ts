@@ -37,7 +37,7 @@ export default sidebar({
       text:"杂项",
       icon:"laptop-code",
       prefix:"md/zaxiang",
-      children:["分布式锁.md","多模块的项目如何创建和启动以及部署.md","synchronized可以锁字符串吗.md"],
+      children:["分布式锁.md","多模块的项目如何创建和启动以及部署.md","synchronized可以锁字符串吗.md","SpringBoot可以同时处理多少请求.md"],
     },
     {
       text:"RabbitMQ",

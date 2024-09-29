@@ -1,5 +1,5 @@
 ---
-title: synchronized相关问题
+title: synchronized可以锁字符串吗
 index: false
 icon: laptop-code
 category:
